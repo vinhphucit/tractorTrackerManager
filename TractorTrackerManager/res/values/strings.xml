@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TractorTracker</string>
+    <string name="app_description">Make your work more simple</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+	<string name="LoaderPopup_please_wait">Please Wait&#8230;</string>
+	<string name="toolbox_title">Toolbox</string>
+	<string name="speed_tracker_title">Speed Tracker</string>
+	<string name="btn_30_min">30 min</string>
+	<string name="btn_6_hrs">6 hrs</string>
+	<string name="btn_24_hrs">24 hrs</string>
+</resources>

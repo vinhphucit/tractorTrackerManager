@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TractorTrackerTheme" parent="@android:style/Theme.Black.NoTitleBar"></style>
+
+    <style name="PleaseWaitText">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:shadowColor">@android:color/black</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="PleaseWaitDialog" parent="@style/Theme.NoTitleBar.Fullscreen.Translucent">
+        <item name="android:windowAnimationStyle">@style/PleaseWaitDialogAnimation</item>
+    </style>
+
+    <style name="PleaseWaitDialogAnimation">
+        <item name="android:windowExitAnimation">@anim/please_wait_fade_out</item>
+    </style>
+
+    <style name="Theme.NoTitleBar.Fullscreen.Translucent" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@color/translucent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+    <style name="Theme.NoTitleBar.Fullscreen" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+       
+    </style>
+
+    <style name="CustomDialogTitle">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:shadowColor">@android:color/black</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+</resources>

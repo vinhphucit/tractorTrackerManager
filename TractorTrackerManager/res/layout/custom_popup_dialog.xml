@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/custom_dialog_wrapper"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:layout_marginBottom="@dimen/custom_dialog_margin_vertical"
+    android:layout_marginLeft="@dimen/custom_dialog_margin_horizontal"
+    android:layout_marginRight="@dimen/custom_dialog_margin_horizontal"
+    android:layout_marginTop="@dimen/custom_dialog_margin_vertical"
+    android:background="@drawable/custom_dialog_background"
+    android:padding="@dimen/custom_dialog_padding" >
+
+    <TextView
+        android:id="@id/custom_dialog_title"
+        style="@style/CustomDialogTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@id/custom_dialog_close_image"
+        android:src="@drawable/custom_dialog_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"/>
+
+    <RelativeLayout
+        android:id="@id/custom_dialog_middle"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/custom_dialog_title"
+        android:gravity="center"
+        android:paddingLeft="6.0dip"
+        android:paddingRight="6.0dip" >
+
+        <FrameLayout
+            android:id="@id/custom_dialog_content_wrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignWithParentIfMissing="true"
+            android:gravity="center_horizontal" />
+    </RelativeLayout>
+
+</RelativeLayout>

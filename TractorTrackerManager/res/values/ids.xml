@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="waiting_root" type="id"/>
+    <item name="waiting_circle" type="id"/>
+    <item name="please_wait_text" type="id"/>
+    <item name="custom_dialog_wrapper" type="id"/>
+    <item name="custom_dialog_title" type="id"/>
+    <item name="custom_dialog_middle" type="id"/>
+    <item name="custom_dialog_content_wrapper" type="id"/>
+    <item name="custom_dialog_close_image" type="id"/>
+    <item name="speed_tracker_graph" type="id"/>
+    <item name="btn30min" type="id"/>
+    <item name="btn6hrs" type="id"/>
+    <item name="btn24hrs" type="id"/>
+
+</resources>

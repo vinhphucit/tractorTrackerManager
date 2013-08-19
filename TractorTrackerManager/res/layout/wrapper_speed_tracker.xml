@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Bob 24 kph" />
+
+    <LinearLayout
+        android:id="@id/speed_tracker_graph"
+        android:layout_width="fill_parent"
+        android:layout_height="350dip"
+        android:orientation="vertical" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="14.0dip" >
+
+        <Button
+            android:id="@id/btn30min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@id/btn6hrs"
+            android:text="@string/btn_30_min" />
+
+        <Button
+            android:id="@id/btn6hrs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/btn_6_hrs" />
+
+        <Button
+            android:id="@id/btn24hrs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/btn6hrs"
+            android:text="@string/btn_24_hrs" />
+    </RelativeLayout>
+
+</RelativeLayout>
